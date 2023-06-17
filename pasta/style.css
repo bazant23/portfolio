@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+    --font1: font-family: 'Dancing Script', cursive;
+    --font2: font-family: 'Inter', sans-serif;
+    --font3: font-family: 'Kalam', cursive;
+}
+
+.body {
+    background-color: #232427;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    font-family: 'Dancing Script', cursive;
+    background-color: #000;
+}
+
+nav {
+    text-align: center;
+    margin-top: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 50px 9px 0;
+    font-size: 25pt;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+nav a::after {
+    content: "";
+    width: 0%;
+    height: 1.2px;
+    background-color: #ffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+nav a:hover::after {
+    width: 100%;
+    background-color:#9F09FC;
+
+}
+
+.titullloo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    margin-right: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 85px;
+    gap: 10px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 40px 50px 50px;
+    color: #fff;
+    
+}
+
+.primeiroimg1 {
+    border-radius: 10%;
+}
+
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 50px 20px;
+    color:#fff;
+}
+
+.nome{
+    color:#9F09FC;
+}
+
+.texto11 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 20px 50px 20px;
+    color: #fff;
+    font-size: 40px;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.card {
+    display: flex;
+    margin: 30px 20px 50px 20px;
+    color: #fff;
+    font-size: 29.2px;;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+
+.parte_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 20px 50px 20px; 
+    padding: 15;  
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 29.2px;
+}
+
+.parte_3{
+    display: flex;
+    margin: 30px 20px 50px 20px;
+    border-radius: 10px;
+}
+
+.parte_4{
+    display: flex;
+    margin: 30px 20px 50px 20px;
+    color: #fff;
+    font-size: 29.2px;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
