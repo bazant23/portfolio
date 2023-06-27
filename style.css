@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+    --font1: font-family: 'Dancing Script', cursive;
+    --font2: font-family: 'Inter', sans-serif;
+    --font3: font-family: 'Kalam', cursive;
+}
+
+.body {
+    background-color: #232427;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    font-family: 'Dancing Script', cursive;
+    padding: 15px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 50px 9px 0;
+    font-size: 25pt;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+nav a::after {
+    content: "";
+    width: 0%;
+    height: 1.2px;
+    background-color: #ffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+nav a:hover::after {
+    width: 100%;
+    background-color: #9F09FC;
+
+}
+/*--------------------------- ----------------------------------------------------------------*/
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.titullloo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 9px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    gap: 10px;
+}
+
+.nome {
+    color: #9F09FC;
+}
+
+.texto11 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 20px 50px 20px;
+    color: #fff;
+    font-size: 40px;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+
+}
+/*--------------------------- primeira parte do main-----------------------------------------------------------------*/
+.img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 40px 50px 50px;
+    color: #fff;
+
+}
+
+.primeiroimg1 {
+    border-radius: 10%;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0.5);
+
+}
+
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 50px 20px;
+    color: #fff;
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+.formes {
+    display: flex;
+    color: #9F09FC;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin: 50px 0px 100px 100px;
+    padding-right: 100px;
+
+}
+
+/*------------------------segunda parte do main --------------------------------------------------------------------*/
+.card00 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 70px 40px 70px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card_1 {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9F09FC;
+    width: 200px;
+    height: 400px;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0.5);
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.img_card_2 {
+    border-radius: 75px;
+}
+.card_11{
+    margin:10px 0px 10px 0px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+.container_11 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Kalam', cursive ;
+    font-size:20px;    
+}
+
+.segundabola {
+    display: flex;
+    border-radius: 105px;
+    margin: 150px 0px 150px 150px;
+
+}
+
+.container_12 {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.nicolas{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: #9F09FC;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #232427;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #9F09FC;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover {
+    background: #f5f5f5;
+    color: #9F09FC;
+    border-radius: 16px;
+}
+    
