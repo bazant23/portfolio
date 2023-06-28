@@ -258,3 +258,26 @@ form button:hover {
     border-radius: 16px;
 }
     
+ @media (min-width:375.20px) and (max-width:667.20px){
+    .body{
+        color: #232427;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        margin:20px auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .div1{
+        display: flex;
+        
+    }
+ }
