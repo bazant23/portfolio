@@ -47,6 +47,7 @@ nav a:hover::after {
     background-color: #9F09FC;
 
 }
+
 /*--------------------------- ----------------------------------------------------------------*/
 
 .div1 {
@@ -81,6 +82,7 @@ nav a:hover::after {
     font-family: 'Dancing Script', cursive;
 
 }
+
 /*--------------------------- primeira parte do main-----------------------------------------------------------------*/
 .img {
     display: flex;
@@ -142,8 +144,9 @@ nav a:hover::after {
 .img_card_2 {
     border-radius: 75px;
 }
-.card_11{
-    margin:10px 0px 10px 0px;
+
+.card_11 {
+    margin: 10px 0px 10px 0px;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -151,8 +154,8 @@ nav a:hover::after {
     display: flex;
     align-items: center;
     color: #fff;
-    font-family: 'Kalam', cursive ;
-    font-size:20px;    
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
 }
 
 .segundabola {
@@ -167,7 +170,7 @@ nav a:hover::after {
     font-size: 30px;
 }
 
-.nicolas{
+.nicolas {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -175,6 +178,7 @@ nav a:hover::after {
     font-family: 'Dancing Script', cursive;
     color: #9F09FC;
 }
+
 /*--------------------------------------------------------------------------------------------*/
 
 
@@ -195,6 +199,7 @@ nav a:hover::after {
     background: #9F09FC;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 40px;
 }
 
 section h2 {
@@ -257,27 +262,50 @@ form button:hover {
     color: #9F09FC;
     border-radius: 16px;
 }
-    
- @media (min-width:375.20px) and (max-width:667.20px){
-    .body{
-        color: #232427;
-        display: flex;
+
+@media (max-width:700px) {
+    nav a{
+        margin-right: 26px;
+    }
+
+    .div1 {
         justify-content: center;
         flex-direction: column;
-        align-items: center;
     }
-    .header{
-        display: flex;
+
+    .texto11 {
+        align-items: center;
         justify-content: center;
-        align-items: center;
+        margin-left: 80px;
     }
-    .img{
-        margin:20px auto;
-        align-items: center;
-        justify-content: space-evenly;
+
+    .titullloo,
+    .card00 {
+        flex-direction: column;
     }
-    .div1{
+
+    .card_1 {
+        margin-bottom: 30px;
+    }
+
+    .formes {
+        width: 100%;
+    }
+
+    .container_11{
         display: flex;
-        
     }
- }
+
+    .container_12{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .segundabola{
+        margin: 10px;
+    }
+
+    
+}
