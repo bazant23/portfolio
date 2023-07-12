@@ -258,7 +258,7 @@ form button:hover {
     border-radius: 16px;
 }
     
-@media (max-width: 375px) {
+@media (max-width: 667px) {
     .header{
         display: flex;
         font-size: 8px;
