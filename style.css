@@ -47,6 +47,7 @@ nav a:hover::after {
     background-color: #9F09FC;
 
 }
+
 /*--------------------------- ----------------------------------------------------------------*/
 
 .div1 {
@@ -81,6 +82,7 @@ nav a:hover::after {
     font-family: 'Dancing Script', cursive;
 
 }
+
 /*--------------------------- primeira parte do main-----------------------------------------------------------------*/
 .img {
     display: flex;
@@ -142,8 +144,9 @@ nav a:hover::after {
 .img_card_2 {
     border-radius: 75px;
 }
-.card_11{
-    margin:10px 0px 10px 0px;
+
+.card_11 {
+    margin: 10px 0px 10px 0px;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -151,8 +154,8 @@ nav a:hover::after {
     display: flex;
     align-items: center;
     color: #fff;
-    font-family: 'Kalam', cursive ;
-    font-size:20px;    
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
 }
 
 .segundabola {
@@ -167,7 +170,7 @@ nav a:hover::after {
     font-size: 30px;
 }
 
-.nicolas{
+.nicolas {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -175,6 +178,7 @@ nav a:hover::after {
     font-family: 'Dancing Script', cursive;
     color: #9F09FC;
 }
+
 /*--------------------------------------------------------------------------------------------*/
 
 
@@ -257,14 +261,25 @@ form button:hover {
     color: #9F09FC;
     border-radius: 16px;
 }
-    
+
 @media (max-width: 667px) {
-    .header{
+    .header {
         display: flex;
         font-size: 8px;
         font-family: 'Dancing Script', cursive;
         margin: 10px;
         padding: right 4px;
     }
-    
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        width: 100vh;
+        margin: 20px;
+    }
 }
