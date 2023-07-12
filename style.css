@@ -258,3 +258,13 @@ form button:hover {
     border-radius: 16px;
 }
     
+@media (max-width: 375px) {
+    .header{
+        display: flex;
+        font-size: 8px;
+        font-family: 'Dancing Script', cursive;
+        margin: 10px;
+        padding: right 4px;
+    }
+    
+}
