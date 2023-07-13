@@ -286,7 +286,7 @@ form button:hover {
     .img {
         display: flex;
         justify-content: center;
-        width: 100vh;
+        width: 90vh;
         margin: 20px;
     }
 
@@ -311,6 +311,14 @@ form button:hover {
     }
 
      .texto11{
-        
+        font-size: 20px;
      }
+
+    .card00{
+        flex-direction: column;
+    }
+    .card_1{
+        justify-content: center;
+        margin: 10px 20px 10px 20px;
+    }
 }
