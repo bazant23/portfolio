@@ -168,6 +168,11 @@ nav a:hover::after {
 .container_12 {
     margin-left: 40px;
     font-size: 30px;
+    text-align: start;
+}
+
+.lorem{
+    text-align: justify;
 }
 
 .nicolas {

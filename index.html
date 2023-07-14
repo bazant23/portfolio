@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="obrigado.html">
     <title>Portfólio</title>
 </head>
 
@@ -81,15 +82,15 @@
 
     <footer class="footer">
         <section class="selection">
-            <form action="https://api.staticforms.xyz/submit" method="post">
+            <form action="https://api.staticforms.xyz/submit" method="post" id="form">
                 <h2 class="contato1">Contato</h2>
                 <label>Nome</label>
-                <input class="input" type="text" none="nome" placeholder="Digite seu nome" autocomplete="off">
+                <input class="input" type="text" none="nome" placeholder="Digite seu nome" autocomplete="off" id="nome">
                 <label for=>Email</label>
-                <input class="input" type="email" nome="email" placeholder=" Digite  seu email" autocomplete="off">
+                <input class="input" type="email" nome="email" placeholder=" Digite  seu email" autocomplete="off" id="email">
                 <label for="">Mensagem</label>
-                <textarea  class="input" none="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-                <button type="submit">Enviar</button>
+                <textarea  id="message" class="input" none="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit" id="Enviar">Enviar</button>
 
                 <input type="hidden" name="accessKey" value="72ce73cc-21c4-4c5f-8833-2cb70cb06a6e">
                 <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
