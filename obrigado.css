@@ -26,3 +26,14 @@
  .btn:hover{
      border-radius: 16px;
  }
+ @media (max-width: 480px) {
+    .text{
+        justify-content: center;
+        margin-left: 7px;
+        text-align: center;
+    }
+    .paragrafo{
+        color:  #9F09FC;
+        font-size:19px ;
+    }
+ }
