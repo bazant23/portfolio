@@ -1,8 +1,22 @@
 const form = document.querySelector ("#form")
-const nameInput = document.queryselector ("#name")
-const emailInput  = document.queryselector ("#email")
-const messageTextarea = document.queryselector ("#message")
+const nameInput = document.querySelector ("#name")
+const emailInput  = document.querySelector ("#email")
+const messageTextarea = document.querySelector ("#message")
 
- form.addEventListener("submit", (Event) => {
-    Event.preventDefault()
- })
+ form.addEventListener("submit", (event) => {
+    Event.preventDefault();
+    //esse comando é para que seja colocado um alerta dizendo para colocar o nome da pessoa que está entrando em contato
+
+    if (nameInput.value === "") {
+      alert("Por favor, preencha seu Nome Completo");
+      return;
+    }
+
+    if (emailInput.value === "") {
+      alert("Por favor,coloque seu email");
+      return;
+    }
+    
+    //Se todos os campos forem corretamente preenchidos , enviar o form
+    form.submit();
+ });
