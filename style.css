@@ -276,7 +276,7 @@ form button:hover {
 /*--------------------------------------------------------------------------------------------*/
 @media (max-width: 480px) {
     .header{
-        margin-top: 30px;
+        margin: 30px 0px 10px 10px;
     }
 
     nav a {
@@ -325,6 +325,7 @@ form button:hover {
      .texto11{
         font-size: 20px;
         margin: 40px 20px 20px;
+        text-align: center;
      }
 
     .card00{
