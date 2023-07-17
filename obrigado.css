@@ -42,7 +42,7 @@
         font-size:19px ;
     }
  }
- @media ( min-width:480px) {
+ @media ( max-width:480px) {
     .text{
         justify-content: center;
         color: #9F09FC;
