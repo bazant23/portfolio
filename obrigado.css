@@ -42,17 +42,3 @@
         font-size:19px ;
     }
  }
- @media ( max-width:480px) {
-    .text{
-        justify-content: center;
-        color: #9F09FC;
-    }
-
-    .text{
-        flex-direction: column;
-    }
-
-    .btn{
-        color: #9F09FC;
-    }
- }
