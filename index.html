@@ -44,43 +44,74 @@
         <div class="formes">
             <h1>Formações em Andamento: </h1>
         </div>
-        
+
         <div class="card00">
 
             <div class="card_1">
                 <img src="whaUninassal.png" alt="" class="img_card_2" width="150px">
                 <h2 class="card_11">Uninassau</h2>
-               
-                <p class="lorem">Iniciei meus estudos na Uninassau no dia 10/03/2023, onde mostrei bons resultados nas disciplinas disponibilizadas para o Ensino Superior.( Análise e Desenvolvimento de Sistema) </p>
+
+                <p class="lorem">Iniciei meus estudos na Uninassau no dia 10/03/2023, onde mostrei bons resultados nas
+                    disciplinas disponibilizadas para o Ensino Superior.( Análise e Desenvolvimento de Sistema) </p>
             </div>
             <div class="card_1">
                 <img src="whaAlura.png" alt="" class="img_card_2" width="150px">
-                    <h2 class="card_11">Alura</h2>
-            
-                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic dolore alias nemo dignissimos pariatur minus nam atque consequatur ratione consequuntur iusto, ipsam aliquid voluptatem sunt harum aliquam delectus explicabo.
-                    </p>
+                <h2 class="card_11">Alura</h2>
+
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic dolore alias nemo
+                    dignissimos pariatur minus nam atque consequatur ratione consequuntur iusto, ipsam aliquid
+                    voluptatem sunt harum aliquam delectus explicabo.
+                </p>
             </div>
             <div>
                 <div class="card_1">
                     <img src="wharockt.png" alt="" class="img_card_2" width="150px">
                     <h2 class="card_11">Rocketseat</h2>
-                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic dolore alias nemo dignissimos pariatur minus nam atque consequatur ratione consequuntur iusto, ipsam aliquid voluptatem sunt harum aliquam delectus explicabo.
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic dolore alias
+                        nemo dignissimos pariatur minus nam atque consequatur ratione consequuntur iusto, ipsam aliquid
+                        voluptatem sunt harum aliquam delectus explicabo.
                     </p>
                 </div>
-        </div>
-      
+            </div>
+
     </main>
-    <div class="container_11"> 
+    <div class="container_11">
         <div>
             <img src="Whatsperfil2.jpeg" alt="" class="segundabola" width="250">
         </div>
         <div class="container_12">
-            <p> {"Creio firmemente em uma lei de compensação. As verdadeiras recompensas são sempre proporcionais ao esforço e aos sacrifícios feitos.."}</p>
+            <p> {"Creio firmemente em uma lei de compensação. As verdadeiras recompensas são sempre proporcionais ao
+                esforço e aos sacrifícios feitos.."}</p>
             <h2 class="nicolas">Nicolas Tesla</h2>
         </div>
     </div>
 
-    <footer></footer>
+    <footer class="footer">
+        <section class="selection">
+            <form id="form" action="https://api.staticforms.xyz/submit" method="post">
+                <h2 class="contato1">Contato</h2>
+                <label>Nome</label>
+                <input type="text" id="name" none="none" placeholder="Digite seu nome" autocomplete="off"
+                    oninput="nameInput.value" class="espaco">
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+
+                <label for=>Email</label>
+                <input type="email" id="email" nome="email" placeholder=" Digite seu email" autocomplete="off"
+                    class="espaco">
+                <span class="span-required">Digite seu Email válido</span>
+
+                <label for=>Mensagem</label>
+                <textarea id="message" none="message" cols="30" rows="10" placeholder="Digite sua mensagem"
+                    class="espaco"></textarea>
+
+
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="72ce73cc-21c4-4c5f-8833-2cb70cb06a6e">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            </form>
+        </section>
+    </footer>
     <script src="script.js"></script>
 </body>
 
