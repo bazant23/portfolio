@@ -1,25 +1,22 @@
-const form = document.querySelector ("#form");
-const nameInput = document.querySelector ("#name");
-const emailInput  = document.querySelector ("#email");
-const messageTextarea = document.querySelector ("#message");
+const form = document.getElementById ('#form');
+const nameInput = document.querySelector ('#name');
+const emailInput  = document.querySelector ('email');
+const messageTextarea = document.querySelector ('message');
 
 
- form.addEventListener("submit", (event) => {
-    Event.preventDefault();
-    //esse comando é para que seja colocado um alerta dizendo para colocar o nome da pessoa que está entrando em contato
+function SpeechSynthesisErrorEvent(index){
+  nameInput[index].style.border = '2px solid #e63636';
+  emailInput[index].style.display = 'block';
+}
 
-    if (nameInput.value === "") {
-      alert("Por favor, preencha o seu nome!");
-      return;
+function nameVlidate(){
+  if(nameInput [0].value.length < 3)
+  {
+    setError(0);
+  }
+  else
+  {
+    console.log('VALIDADO O NOME')
+  }
 
-    }
-
-    if (emailInput.value === "") {
-      alert("Por favor,coloque seu email!");
-      return;
-    }
-    
-    if (messageTextarea ==="")
-    //Se todos os campos forem corretamente preenchidos , enviar o form
-  form.submit();
- });
+}
