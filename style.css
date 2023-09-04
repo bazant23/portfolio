@@ -191,8 +191,6 @@ nav a:hover::after {
     bottom: 20px;
     right: 20px;
     z-index: 9999;
-    
-    
 }
 
 
@@ -265,7 +263,7 @@ nav a:hover::after {
 
     .container_11{
         flex-direction: column;
-        margin: 10px;
+        margin: 20px;
     }
     
     .container_12{
@@ -274,6 +272,11 @@ nav a:hover::after {
     
     .nicolas{
         margin-top:25px;
+    }
+    .whats{
+        flex-direction: column;
+        margin: 10px;
+        
     }
 
 }
